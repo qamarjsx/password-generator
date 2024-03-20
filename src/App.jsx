@@ -55,9 +55,11 @@ export default function App() {
           'url("https://res.cloudinary.com/dm4rvbu7y/image/upload/v1710973426/ReactPractice/ns0saua800ugvtycuvfc.jpg")',
       }}
     >
-      <h1 className="font-semibold my-5 text-3xl glass px-3 rounded-sm text-[#307473]">Password Generator</h1>
-      <div className="w-8/12 h-40 glass rounded flex flex-col text-[#F9F9F9]">
-        <div className="flex justify-start">
+      <h1 className="my-5 text-3xl font-bold w-4/5 sm:w-3/5 md:w-1/2 lg:w-2/5 xl:w-1/3 2xl:w-1/4 text-center rounded glass text-[#307473]">
+        Password Generator
+      </h1>
+      <div className="glass flex flex-col justify-between w-11/12 sm:w-10/12 md:w-9/12 lg:w-8/12 xl:w-1/2 h-1/5 p-3 rounded-lg text-[#F9F9F9]">
+        <div className="flex justify-center">
           <input
             readOnly
             value={password}
@@ -114,7 +116,7 @@ export default function App() {
               setPassword
             )
           }
-          className="bg-[#307473] w-1/4 self-center h-8 cursor-pointer"
+          className="bg-[#307473] w-1/4 self-center h-9 rounded cursor-pointer"
         >
           Generate
         </button>
