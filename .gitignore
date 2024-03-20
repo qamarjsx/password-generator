@@ -1,0 +1,46 @@
+# Dependency directories
+node_modules/
+
+# Local development env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs and cache files
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm/
+.pnpm-debug.log
+.pnpmrc
+
+# Build files
+dist/
+build/
+out/
+.cache/
+.next/
+
+# IDE files
+.vscode/
+.idea/
+
+# Editor directories and files
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Dependencies and lock files
+yarn.lock
+package-lock.json
+pnpm-lock.yaml
+
+# Optional: Tailwind CSS JIT mode
+.tailwindcss-cache/
+
+# Optional: Vite cache
+.vite/
